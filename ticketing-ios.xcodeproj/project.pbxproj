@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAAE5CCA2C3D815D00AA9C9B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE5CC92C3D815D00AA9C9B /* Home.swift */; };
 		EAB9905C2C3C64AC00CB42CA /* loginUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9905B2C3C64AC00CB42CA /* loginUiApp.swift */; };
 		EAB9905E2C3C64AC00CB42CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9905D2C3C64AC00CB42CA /* ContentView.swift */; };
 		EAB990602C3C64AE00CB42CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB9905F2C3C64AE00CB42CA /* Assets.xcassets */; };
 		EAB990632C3C64AE00CB42CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB990622C3C64AE00CB42CA /* Preview Assets.xcassets */; };
+		EAB9906B2C3C650F00CB42CA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9906A2C3C650F00CB42CA /* Login.swift */; };
+		EAB9906E2C3C673E00CB42CA /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9906D2C3C673E00CB42CA /* View+Extensions.swift */; };
+		EAB990702C3C68D800CB42CA /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9906F2C3C68D800CB42CA /* CustomTF.swift */; };
+		EAB990722C3D046400CB42CA /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB990712C3D046400CB42CA /* GradientButton.swift */; };
+		EAB990742C3D0BE900CB42CA /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB990732C3D0BE900CB42CA /* Signup.swift */; };
+		EAB990762C3D2B7A00CB42CA /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB990752C3D2B7A00CB42CA /* ForgotPassword.swift */; };
+		EAB990782C3D2F1F00CB42CA /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB990772C3D2F1F00CB42CA /* PasswordResetView.swift */; };
+		EAB9907A2C3D319200CB42CA /*  OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB990792C3D319200CB42CA /*  OTPView.swift */; };
+		EAB9907C2C3D330500CB42CA /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9907B2C3D330500CB42CA /* OTPVerificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EAB990582C3C64AC00CB42CA /* loginUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE5CC92C3D815D00AA9C9B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EAB990582C3C64AC00CB42CA /* ticketing-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ticketing-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB9905B2C3C64AC00CB42CA /* loginUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUiApp.swift; sourceTree = "<group>"; };
 		EAB9905D2C3C64AC00CB42CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAB9905F2C3C64AE00CB42CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAB990622C3C64AE00CB42CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAB9906A2C3C650F00CB42CA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		EAB9906D2C3C673E00CB42CA /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		EAB9906F2C3C68D800CB42CA /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		EAB990712C3D046400CB42CA /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradientButton.swift; path = ../../../../GradientButton.swift; sourceTree = "<group>"; };
+		EAB990732C3D0BE900CB42CA /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		EAB990752C3D2B7A00CB42CA /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		EAB990772C3D2F1F00CB42CA /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		EAB990792C3D319200CB42CA /*  OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " OTPView.swift"; sourceTree = "<group>"; };
+		EAB9907B2C3D330500CB42CA /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EAAE5CC82C3D80E000AA9C9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EAB9904F2C3C64AC00CB42CA = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +70,7 @@
 		EAB990592C3C64AC00CB42CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAB990582C3C64AC00CB42CA /* loginUi.app */,
+				EAB990582C3C64AC00CB42CA /* ticketing-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +78,9 @@
 		EAB9905A2C3C64AC00CB42CA /* loginUi */ = {
 			isa = PBXGroup;
 			children = (
+				EAAE5CC82C3D80E000AA9C9B /* Models */,
+				EAB9906C2C3C672000CB42CA /* Helpers */,
+				EAB990692C3C64FD00CB42CA /* View */,
 				EAB9905B2C3C64AC00CB42CA /* loginUiApp.swift */,
 				EAB9905D2C3C64AC00CB42CA /* ContentView.swift */,
 				EAB9905F2C3C64AE00CB42CA /* Assets.xcassets */,
@@ -67,12 +97,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EAB990692C3C64FD00CB42CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAB9906A2C3C650F00CB42CA /* Login.swift */,
+				EAB9906F2C3C68D800CB42CA /* CustomTF.swift */,
+				EAB990712C3D046400CB42CA /* GradientButton.swift */,
+				EAB990732C3D0BE900CB42CA /* Signup.swift */,
+				EAB990752C3D2B7A00CB42CA /* ForgotPassword.swift */,
+				EAB990772C3D2F1F00CB42CA /* PasswordResetView.swift */,
+				EAB990792C3D319200CB42CA /*  OTPView.swift */,
+				EAB9907B2C3D330500CB42CA /* OTPVerificationView.swift */,
+				EAAE5CC92C3D815D00AA9C9B /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAB9906C2C3C672000CB42CA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAB9906D2C3C673E00CB42CA /* View+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAB990572C3C64AC00CB42CA /* loginUi */ = {
+		EAB990572C3C64AC00CB42CA /* ticketing-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAB990662C3C64AE00CB42CA /* Build configuration list for PBXNativeTarget "loginUi" */;
+			buildConfigurationList = EAB990662C3C64AE00CB42CA /* Build configuration list for PBXNativeTarget "ticketing-ios" */;
 			buildPhases = (
 				EAB990542C3C64AC00CB42CA /* Sources */,
 				EAB990552C3C64AC00CB42CA /* Frameworks */,
@@ -82,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = loginUi;
+			name = "ticketing-ios";
 			productName = loginUi;
-			productReference = EAB990582C3C64AC00CB42CA /* loginUi.app */;
+			productReference = EAB990582C3C64AC00CB42CA /* ticketing-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EAB990532C3C64AC00CB42CA /* Build configuration list for PBXProject "loginUi" */;
+			buildConfigurationList = EAB990532C3C64AC00CB42CA /* Build configuration list for PBXProject "ticketing-ios" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAB990572C3C64AC00CB42CA /* loginUi */,
+				EAB990572C3C64AC00CB42CA /* ticketing-ios */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB990742C3D0BE900CB42CA /* Signup.swift in Sources */,
+				EAB9907C2C3D330500CB42CA /* OTPVerificationView.swift in Sources */,
+				EAB9906B2C3C650F00CB42CA /* Login.swift in Sources */,
+				EAB990722C3D046400CB42CA /* GradientButton.swift in Sources */,
+				EAB990762C3D2B7A00CB42CA /* ForgotPassword.swift in Sources */,
 				EAB9905E2C3C64AC00CB42CA /* ContentView.swift in Sources */,
+				EAB9906E2C3C673E00CB42CA /* View+Extensions.swift in Sources */,
+				EAB990782C3D2F1F00CB42CA /* PasswordResetView.swift in Sources */,
+				EAB9907A2C3D319200CB42CA /*  OTPView.swift in Sources */,
+				EAB990702C3C68D800CB42CA /* CustomTF.swift in Sources */,
+				EAAE5CCA2C3D815D00AA9C9B /* Home.swift in Sources */,
 				EAB9905C2C3C64AC00CB42CA /* loginUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAB990532C3C64AC00CB42CA /* Build configuration list for PBXProject "loginUi" */ = {
+		EAB990532C3C64AC00CB42CA /* Build configuration list for PBXProject "ticketing-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAB990642C3C64AE00CB42CA /* Debug */,
@@ -334,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAB990662C3C64AE00CB42CA /* Build configuration list for PBXNativeTarget "loginUi" */ = {
+		EAB990662C3C64AE00CB42CA /* Build configuration list for PBXNativeTarget "ticketing-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAB990672C3C64AE00CB42CA /* Debug */,
